@@ -10,11 +10,12 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="background"></div>
     <header>
         <div class="header-container">
-            <div class="portrait-container">
-                <img src="/images/portrait.jpg" alt="Chicken BBQ"/>
-                <p>Ashley Williams</p>
+            <div class="header-image-container">
+                <img class="header-image" src="/images/portrait.jpg" alt="Chicken BBQ" aria-labelledby="ashley-williams-header"/>
+                <h1 class="header-image-text" id="ashley-williams-header">Ashley Williams</h1>
             </div>
             <div class="header-info-container">
                 <h1>About me</h1>
@@ -194,39 +195,40 @@
         </section>
     </main>
     <footer>
-        <div class="footer-contact-container">
-            <div class="contact-container">
+        <div class="footer-container">
+            <div class="footer-contact-container">
                 <h1>Contact me</h1>
                 <p>Please get in touch if you think our work could be mutually beneficial!</p>
+                <div class="address-container">
+                    <p>
+                        1234 Random Road<br/>
+                        Random Town, California 12345
+                    </p>
+                </div>
+                <div class="contact-info-container">
+                    <a class="contact-info-item" href="tel:+15555555555">
+                        <img class="icon" src="/images/phone.svg" alt="Phone">
+                        555-555-5555
+                    </a>
+                    <a class="contact-info-item" href="mailto:ashleywilliams.is.not.real@gmail.com">
+                        <img class="icon" src="/images/email.svg" alt="Email">
+                        ashleywilliams.is.not.real@gmail.com
+                    </a>
+                </div>
+                <div class="contact-icons-container">
+                    <a href="">
+                        <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                    </a>
+                    <a href="">
+                        <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                    </a>
+                </div>
             </div>
-            <div class="address-container">
-                <p>
-                    1234 Random Road<br/>
-                    Random Town, California 12345
-                </p>
+            <div class="footer-image-container">
+                <img class="footer-image" src="/images/footer.jpg" alt="Chicken BBQ">
             </div>
-            <div class="contact-info-container">
-                <a href="tel:+15555555555">
-                    <img src="/images/phone.svg" alt="Phone">
-                    555-555-5555
-                </a>
-                <a href="mailto:ashleywilliams.is.not.real@gmail.com">
-                    <img src="/images/email.svg" alt="Email">
-                    ashleywilliams.is.not.real@gmail.com
-                </a>
-            </div>
-            <div class="contact-icons-container">
-                <a href="">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-                </a>
-                <a href="">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
-                </a>
-            </div>
-        </div>
-        <div class="footer-image-container">
-            <img src="/images/footer.jpg" alt="Chicken BBQ">
         </div>
     </footer>
+    
 </body>
 </html>
