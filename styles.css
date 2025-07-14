@@ -218,3 +218,37 @@ footer .icon {
     display: flex;
     gap: 16px;
 }
+
+@media (max-width: 1000px) {
+    .header-container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header-image-container {
+        margin: 0;
+        overflow: initial;
+        width: 65%;
+    }
+    .header-image-container img {
+        display: block;
+        float: left;
+        margin: -70px 16px 16px -70px;
+    }
+    .header-info-container {
+        display: block;
+    }
+    .header-image-text {
+        left: 65%;
+    }
+    .header-info-container > * {
+        margin: 24px 0;
+    }
+    .header-info-container > h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+}
